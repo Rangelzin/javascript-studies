@@ -10,6 +10,10 @@ Para visualizar os projetos:
     ```bash
     git clone https://rangelzin.github.io/javascript-studies/.git
     ```
+2. Acesse o repositório:
+   ```bash
+    cd javascript-studies
+    ```
 Navegue até o diretório do projeto que deseja visualizar.
 
 Abra o arquivo o link de cada projeto em seu navegador para ver o resultado.
