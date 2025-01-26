@@ -1,20 +1,26 @@
-# Projetos de Estudo de JavaScript
+# Projetos de Estudo de JAVASCRIPT
 
-Este repositório contém diversos projetos de estudo em Javascript para iniciantes.
+Este repositório contém diversos projetos de estudo em javacript para iniciantes.
 
 ## Como usar
 
 Para visualizar os projetos:
 
-1. Clone o repositório para sua máquina local usando o comando:
+1. Clone o repositório de projeto em javascript para sua máquina local usando o comando:
+   
+    ```bash
+    git clone https://github.com/Rangelzin/javascript-studies/.git
+    ```
+    
+2. Acesse o repositório:
+   
+   ```bash
+    cd javascript-studies
+    ```
+   
+Navegue até o diretório do projeto que deseja visualizar.
 
-git clone <a href="https://rangelzin.github.io/myPortfolio/" target="_blank"> Repositório de Projetos</a>
-
-ou vai até <a href="https://rangelzin.github.io/javascript-studies/"> Repositório de Estudos</a>
-
-2. Navegue até o diretório do projeto que deseja visualizar.
-
-3. Abra o arquivo o link de cada projeto em seu navegador para ver o resultado.
+Abra o arquivo o link de cada projeto em seu navegador para ver o resultado.
 
 ## Contribuição
 
