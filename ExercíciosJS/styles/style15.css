@@ -19,9 +19,17 @@ section {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.600);
 }
 
-div{
-    text-align: center;
+div{  
     padding: 10px;
+}
+
+#resultado {
+    text-align: center;
+}
+
+#resultado > p {
+    margin-bottom: 8px;
+    margin-top: 8px;
 }
 
 footer{

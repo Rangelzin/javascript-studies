@@ -3,20 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hora do Dia</title>
+    <title>Verificador de Idade</title>
     <link rel="stylesheet" href="../styles/style15.css">
     <script src="../script/javascript15.js"></script>
 </head> 
 <body > 
     <header>
-        <h1>TITULO</h1>
+        <h1>Verificador de idade</h1>
     </header>
     <section>
-        <div id="msg">
-           TESTANDO...
+        <div>
+            <p>Ano de Nascimento<input type="number" name="ano" id="iano" min="1970"></p>
+            <p>Sexo:
+                <input type="radio" name="sexo" id="mas" checked>
+                <label for="mas">Masculino</label> 
+                <input type="radio" name="sexo" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+            <p><input type="button" value="Verificar" onclick="verificar()"></p>
         </div>
-        <div >
-          
+        <div id="resultado" >
+            <p>Preencha os dados para ver o resultado!</p>
         </div>
     </section>
     <footer>
