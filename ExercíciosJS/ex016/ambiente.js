@@ -1,24 +1,7 @@
-var c = 1
-do {
-    console.log(`Passo ${c}`)
-    c++ // c = c + 1
-} while (c <= 2)
 
-/*
-var c = 1
-while (c <= 10){
-    console.log(`Passo ${c}`)
-    c++ // c = c + 1
+console.log(`Vai começar...`)
+for(var c=1;c<=4;c++){
+    console.log(c)
 }
-*/
+console.log('Fim!')
 
-/*
-console.log('Tudo bem?')
-console.log('Tudo bem?')
-console.log('Tudo bem?')
-console.log('Tudo bem?')
-console.log('Tudo bem?')
-console.log('Tudo bem?')
-console.log('Tudo bem?')
-console.log('Tudo bem?')
-*/
