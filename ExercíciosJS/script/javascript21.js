@@ -3,7 +3,7 @@ let lista = document.getElementById('lista') // lista que sera colocada no selec
 let res = document.getElementById('res') // elemento que irá mostrar o resultado
 let valores = [] // variavel composta 
 
-function isNumero(n){
+function isNumero(n){ // verificacao se o numero esta entre 1 e 100 com especie de operador logico
     if (n >= 1 && n <=100) {
         return true
     } else {
@@ -11,7 +11,7 @@ function isNumero(n){
     }
 }
 
-function inLista(n, l) {
+function inLista(n, l) { // vetificacao se o numero digitado ja foi digitado alguma vez antes
     if (l.indexOf(n) != -1) {
         return true
     } else { 
@@ -24,18 +24,18 @@ function adicionar() {
     if(isNumero(n) && !inLista(n, valores)){ // verificacao de numeros
         valores.push(n)
         let item = document.createElement('option') // cria um novo item
-        item.text = `Numero ${n} adicionado!`
-        lista.appendChild(item)
+        item.text = `Numero ${n} adicionado!` // add texto ao item
+        lista.appendChild(item) // add item
         res.innerHTML = '' // limpa o resultado
     } else {
         alert('[ERROR] Numero invalido  ou numero ja digitado!') 
     }
     num.value = ''
-    num.focus()
+    num.focus() // deixa o foco no input onde tem digita o num
 }
 
 function finalizar (){
-    if (valores.length == 0) {
+    if (valores.length == 0) { // verifica se o se o campo n esta vazio
         alert('[ERROR] Nao ha numeros digitados!')
     } else {
         let total = valores.length
@@ -44,7 +44,7 @@ function finalizar (){
         let soma = 0
         let media = 0
 
-        for(let pos in valores){
+        for(let pos in valores){ // verifica e coloca os numeros em ordem
             soma += valores[pos]
             if(valores[pos] > maior) 
                 maior = valores[pos]
@@ -63,7 +63,7 @@ function finalizar (){
     }
 }
 
-function redefinir(){
+function redefinir(){ // limpa todo o campo que aparece os numeros!
     valores = []
     lista.innerHTML = ''
     res.innerHTML = ''
