@@ -3,4 +3,6 @@
 const num1 = 10
 const num2 = 70
 
-console.log(num1 < num2)
+const res = num1 < num2
+
+console.log(res)

@@ -3,4 +3,6 @@
 const person1 = {name:"João"}
 const person2 = {name:"Maria"}
 
-console.log(person1 != person2)
+const compare = person1 != person2
+
+console.log(compare) 

@@ -2,12 +2,7 @@
 
 const name = ["João", "Maria"]
 
-console.log(name[0] != name[1])
+const compare = name[0] != name[1]
 
-// name[0] = name[1]
+console.log(compare)
 
-// if(name[0] != name[1]){
-//     console.log(name[0] != name[1])
-// } else {
-//     console.log(name[0] != name[1])
-// }

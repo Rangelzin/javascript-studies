@@ -2,4 +2,6 @@
 
 const name = ["João", "Maria"]
 
-console.log(name[0] == name[1])
+const compare = name[0] === name[1]
+
+console.log(compare)
