@@ -14,18 +14,18 @@
 
 */
 
-const element = document.getElementById("main-text")
+const element = document.getElementById("main-text");
 
-const element2 = document.getElementsByClassName("paragraph")
+const element2 = document.getElementsByClassName("paragraph");
 
-const element3 = document.getElementsByTagName("p")
+const element3 = document.getElementsByTagName("p");
 
-const element4 = document.querySelector("p")
+const element4 = document.querySelector("p");
 
-const element5 = document.querySelectorAll("p")
+const element5 = document.querySelectorAll("p");
 
-element5.forEach(element => {
-    console.log(element)
+element5.forEach((element) => {
+  console.log(element);
 });
 
-const element6 = document.getElementByName("my-input")
+const element6 = document.getElementByName("my-input");
